@@ -147,7 +147,6 @@ User → Frontend (record) → Backend (process) → Evaluation + Feedback → D
 ```bash
 git clone https://github.com/yourusername/ielts-speaking-fluency-tester.git
 cd ielts-speaking-fluency-tester
-pip install -r requirements.txt
 ```
 ### How to run
 - python -m venv venv
