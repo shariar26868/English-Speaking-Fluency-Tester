@@ -2,6 +2,10 @@
 <img width="817" height="427" alt="Screenshot 2025-07-22 043133" src="https://github.com/user-attachments/assets/5aa0213b-9f0b-4213-9bbe-0f67cf3206e2" />
 
 ## System Architecture
+
+<img width="1161" height="666" alt="Screenshot 2025-07-22 055848" src="https://github.com/user-attachments/assets/07708dbf-6b91-4117-beec-2e36ef68767c" />
+
+## Project structure
 ```text
 speakingFluencer/
 │
