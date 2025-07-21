@@ -49,6 +49,7 @@ The system follows a client-server architecture with the following components:
   - Uses Whisper for transcription.
   - Computes fluency (pauses, fillers), grammar (errors, coherence), vocabulary (diversity), and pronunciation (speech rate) scores.
 - **Dependencies**: `whisper`, `language_tool_python`, `transformers`.
+<img width="797" height="373" alt="Screenshot 2025-07-22 043202" src="https://github.com/user-attachments/assets/6c4ccc95-0ee6-4cad-898f-7d5033634b09" />
 
 ### 4. Feedback Module
 - **File**: `backend/feedback.py`
@@ -57,6 +58,8 @@ The system follows a client-server architecture with the following components:
   - Analyzes pauses, filler words, grammar errors, vocabulary repetition, and speech rate.
   - Provides specific suggestions using `language_tool_python` and DistilBERT.
 - **Dependencies**: `language_tool_python`, `transformers`.
+<img width="780" height="801" alt="Screenshot 2025-07-22 043240" src="https://github.com/user-attachments/assets/56463ffc-1a32-4b44-a529-f141ded46521" />
+<img width="780" height="801" alt="Screenshot 2025-07-22 043256" src="https://github.com/user-attachments/assets/17c81a1c-8b21-42b5-8540-083adcb73213" />
 
 ### 5. Data Storage
 - **Directory**: `data/`
@@ -90,6 +93,7 @@ User → Frontend (record) → Backend (process) → Evaluation + Feedback → D
 ### 3. Result Delivery
 - Backend returns a JSON with scores, transcript, feedback.
 - Frontend displays the results and updates the progress chart.
+<img width="828" height="522" alt="Screenshot 2025-07-22 043311" src="https://github.com/user-attachments/assets/b4ee2241-9530-4a35-8304-995d078c2d68" />
 
 ## Scoring Formulas
 
