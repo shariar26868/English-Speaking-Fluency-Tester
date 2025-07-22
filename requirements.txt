@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+streamlit
+pydub
+openai-whisper
+language-tool-python
+pandas
+altair
+python-multipart
+transformers
+torch
+streamlit-audiorecorder
